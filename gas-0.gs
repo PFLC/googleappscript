@@ -22,17 +22,18 @@
 
 function enviaMapa() {
   // Esta sección es como el rompecabezar de http://blocky-games.appstop.com, cuenta con caracteristicas.
-  // Son propiedades (el punto decimal) para describir el objeto
+  // Son propiedades (el punto decimal) para describir el las instrucciones y sus propiedades
   var sheet = SpreadsheetApp.getActiveSheet();
   
   // Es la posición que tomará para el mapa, favor de poner la direccion en la Celda A1 de su hoja de cálculo.
+  // Puede dar otra posición de su Hoja de Cálculo, adelante.
   var address = sheet.getRange('A1').getValue(); 
-  var map = Maps.newStaticMap().addMarker(address);
+  var map = Maps.newStaticMap().addMarker(address); // instruccion para crear un clip de la dirección propuesta.
   
   // Favor de poner su correo abajo
-  GmailApp.sendEmail('---@lazarocardenas.edu.mx', 'Mapa', 'Favor de ver abajo.', {attachments:[map]});
+  GmailApp.sendEmail('---@lazarocardenas.edu.mx', 'Practica GAScript CERO, creará un Mapa', 'Favor de ver adentro de este correo.', {attachments:[map]});
 }
 
 /**
-* Gracias favor de crearlo en su Script personal
+* Gracias favor de crearlo en su Script personal, es un curso básico para Bachillerato.
 */ 
