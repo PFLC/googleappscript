@@ -21,7 +21,7 @@
 */ 
 
 function enviaMapa() {
-  // Esta sección es como el rompecabezar de http://blocky-games.appstop.com, cuenta con caracteristicas.
+  // Esta sección es como el rompecabezar de https://blockly-games.appspot.com, cuenta con caracteristicas.
   // Son propiedades (el punto decimal) para describir el las instrucciones y sus propiedades
   var sheet = SpreadsheetApp.getActiveSheet();
   
