@@ -15,5 +15,3 @@ function desplegarNombre() {
 
 ```
 
-
-https://youtu.be/jU8mdKl0QGw
