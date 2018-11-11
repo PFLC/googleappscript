@@ -6,4 +6,11 @@ Estudiantes se preparan para trabajar con GAS o Google Apps Script
 
 
 
+```
+// Esta es la manera de desplegar una ventana con un mensaje.
+function desplegarNombre() {
+  var tuNombre = 'Rene Solis';
+  Browser.msgBox("Hola " + tuNombre +  " bienvenido a Google Script!");
+}
 
+```
