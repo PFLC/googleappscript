@@ -1,10 +1,26 @@
-/**
- * Practica GAS.1
- *
- * Crea un Google Doc y envía un correo electrónico al usuario actual con un enlace al documento.
- *
- * Cambiar minimo el calculo,y  mensaje (claro libremente puede hacer mas cambios)
- */
+/** 
+  *   _____  ______ _      _____ 
+  *  |  __ \|  ____| |    / ____|
+  *  | |__) | |__  | |   | |     
+  *  |  ___/|  __| | |   | |     
+  *  | |    | |    | |___| |____ 
+  *  |_|    |_|    |______\_____|
+  *   
+  * Script:    gas-1.gs 
+  * 
+  * Autor1:      --su nombre y correo-- ( ...@lazarocardenas.edu.mx) 
+  * Fecha:       Noviembre 2018
+  * Colaborador: MC. René Solis (rsolis@lazarocardenas.edu.mx) 
+  * Curso:       Informática I. en PFLC
+  * 
+  * Resumen del archivo: 
+  * 
+  * Crea un Google Doc y envía un correo electrónico al usuario actual con un enlace al documento.
+  *
+  * Cambiar minimo el calculo,y  mensaje (claro libremente puede hacer mas cambios)
+  * 
+*/ 
+
 function crearEnviarAlgo() {
   
   // Crear un  Google Doc de nombre 'Hola Mundo!'
@@ -23,10 +39,10 @@ function crearEnviarAlgo() {
   var sujeto = doc.getName();
   
   // Un calculo para enviarlo por correo, es 12 .... ?
-    var suma = 5+5
+  var suma = 5+5
    
   // Que Grupo estas ?
-   var myGrupoEs = 100
+  var myGrupoEs = 100
    
   // Agregue una nueva cadena a la variable "url" para usarla como un cuerpo de correo electrónico.
  
