@@ -10,11 +10,10 @@ Los comentarios son líneas de texto especialmente marcadas en el programa que *
 
 ## Resumen de los tipos de comentarios:
 
-Aquí están las sintaxis de los comentarios para los idiomas variables. En muchos comentarios a continuación, usamos el estilo Matlab, pero usted debe "mentalmente" reemplazarlo con el estilo apropiado para su idioma.
-
 GAS:
-use // para una sola línea. Todo lo que va desde el // hasta el final de esa línea del archivo es ignorado por el programa y es solo para uso del lector humano del código. 
-Usar / * para líneas múltiples * /
+- Use // para una sola línea. 
+- Todo lo que va desde el // hasta el final de esa línea del archivo es ignorado por el programa y es solo para uso del lector humano del código. 
+- Usar / * para líneas múltiples * /
 
 Bibliografía: 
 https://www.cs.utah.edu/~germain/PPS/Topics/commenting.html
