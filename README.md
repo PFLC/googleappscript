@@ -15,3 +15,4 @@ function desplegarNombre() {
 
 ```
 
+![](GASintro.png)
