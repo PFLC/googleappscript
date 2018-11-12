@@ -19,9 +19,9 @@
   * 
 */ 
 function onOpen() {
-  SpreadsheetApp.getUi() // Or DocumentApp or SlidesApp or FormApp.
-      .createMenu('Personalizar Menu')
-      .addItem('Mostrar pregunta', 'showPrompt')
+  SpreadsheetApp.getUi() // Funciona dentro de DocumentApp, SlidesApp o FormApp.
+      .createMenu('Practicas Informática')
+      .addItem('Preguntar su nombre', 'showPrompt')
       .addToUi();
 }
 
@@ -41,7 +41,7 @@ function showPrompt() {
     ui.alert('Tu nombre es ' + text + ', de la clase de informática.');
   } else if (button == ui.Button.CANCEL) {
     // Hizo click en "Cancel".
-    ui.alert('No logre anotar su nombre.');
+    ui.alert('No logré, anotar su nombre.');
   } else if (button == ui.Button.CLOSE) {
     // Hizo click en X en la barra de herramientas.
     ui.alert('Cerró la ventana.');
