@@ -11,7 +11,7 @@
   * Autor1: --su nombre y correo-- ( ...@lazarocardenas.edu.mx) 
   * Fecha:  Noviembre 2018
   * Asesor: MC. René Solis (rsolis@lazarocardenas.edu.mx) 
-  * Curso:  Informática I. en PFLC
+  * Curso:  Informática I en PFLC
   * 
   * Resumen del archivo: 
   * 
@@ -21,7 +21,7 @@
 function onOpen() {
   SpreadsheetApp.getUi() // Or DocumentApp or SlidesApp or FormApp.
       .createMenu('Personalizar Menu')
-      .addItem('Mostrat pregunta', 'showPrompt')
+      .addItem('Mostrar pregunta', 'showPrompt')
       .addToUi();
 }
 
@@ -29,8 +29,8 @@ function showPrompt() {
   var ui = SpreadsheetApp.getUi(); // Comando de ventanas.
 
   var result = ui.prompt(
-      'Vamos conociendonos!',
-      'Por favar teclea tu nombre:',
+      '¡Vamos conociendonos!',
+      'Por favor teclea tú nombre:',
       ui.ButtonSet.OK_CANCEL);
 
   // Procesar la respuesta del usuario, boton, mensaje
