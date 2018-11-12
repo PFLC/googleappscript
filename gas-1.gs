@@ -51,3 +51,5 @@ function crearEnviarAlgo() {
   // Envíate un correo electrónico con un enlace al documento.
   GmailApp.sendEmail(email, sujeto, redaccion);
 }
+// Basado en tutorial de GAS via https://github.com/gsuitedevs/apps-script-samples/blob/master/templates/standalone/helloWorld.gs
+
