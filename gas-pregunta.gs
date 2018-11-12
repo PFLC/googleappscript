@@ -38,12 +38,13 @@ function showPrompt() {
   var text = result.getResponseText();
   if (button == ui.Button.OK) {
     // Hizo click en "OK".
-    ui.alert('Tu nombre es ' + text + '.');
+    ui.alert('Tu nombre es ' + text + ', de la clase de informática.');
   } else if (button == ui.Button.CANCEL) {
     // Hizo click en "Cancel".
     ui.alert('No logre anotar su nombre.');
   } else if (button == ui.Button.CLOSE) {
     // Hizo click en X en la barra de herramientas.
-    ui.alert('Cerro la ventana.');
+    ui.alert('Cerró la ventana.');
   }
 }
+// Basado en tutorial GAS: https://developers.google.com/apps-script/guides/dialogs
