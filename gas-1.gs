@@ -8,10 +8,10 @@
   *   
   * Script:    gas-1.gs 
   * 
-  * Autor1:      --su nombre y correo-- ( ...@lazarocardenas.edu.mx) 
-  * Fecha:       Noviembre 2018
-  * Colaborador: MC. René Solis (rsolis@lazarocardenas.edu.mx) 
-  * Curso:       Informática I. en PFLC
+  * Autor1: --su nombre y correo-- ( ...@lazarocardenas.edu.mx) 
+  * Fecha:  Noviembre 2018
+  * Asesor: MC. René Solis (rsolis@lazarocardenas.edu.mx) 
+  * Curso:  Informática I. en PFLC
   * 
   * Resumen del archivo: 
   * 
