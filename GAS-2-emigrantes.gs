@@ -16,7 +16,7 @@
   * Resumen del archivo: 
   * Vamos a crear una función personalizada con Apps Script y también demostrar el uso del Servicio de Mapas. Crearemos una pequeña función personalizada que calcula la distancia de conducción entre dos puntos, según las estimaciones de conducción del Servicio de Google Maps.
   * El objetivo es poder tener dos o mas  lugares en nuestra hoja de cálculo y escribir la nueva función en una nueva celda para obtener la distancia, de la siguiente manera:
-	* 
+  * 
   * Nota: Debemos poner un rango en la hoja de cálculo para determinar A1:B1 por ejemplo
 */ 
 
