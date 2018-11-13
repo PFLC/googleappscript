@@ -33,3 +33,4 @@ function distanciaEntreDosPuntos(start_point, end_point) {
   var distance = route.legs[0].distance.text;
   return distance;
 }
+// Adaptado de https://www.benlcollins.com/spreadsheets/starting-gas/
